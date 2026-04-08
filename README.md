@@ -1,12 +1,12 @@
-Predicting Online Shoppers’ Purchase Intention Using Machine Learning
+"Predicting Online Shoppers’ Purchase Intention Using Machine Learning"
 
-Project Overview
+Project Overview:
 This project aims to predict whether an online shopper will complete a purchase based on session-level behavioral data.
 Several machine learning models are implemented and compared to analyze user behavior and purchasing intention in e-commerce platforms.
 
 The project is developed as part of an academic research/practical work and focuses on model comparison and performance evaluation.
 
-Dataset Description
+Dataset Description:
 - Dataset Name: Online Shoppers Purchasing Intention Dataset  
 - Source: UCI Machine Learning Repository  
 - Instances: 12,330 user sessions  
@@ -15,7 +15,8 @@ Dataset Description
 
 The dataset contains session-based features such as page visits, duration, bounce rates, and traffic information.
 
-Methodology
+Methodology:
+
 The following steps were performed in this project:
 
 1. Data loading and basic exploration  
@@ -33,14 +34,14 @@ The following steps were performed in this project:
    - F1 Score
 7. Comparative performance analysis
 
-Machine Learning Models Used
+Machine Learning Models Used:
 - Logistic Regression** (Baseline model)
 - Random Forest Classifier**
 - XGBoost Classifier**
 
 These models were selected to compare linear, ensemble, and boosting-based approaches.
 
-Results and Evaluation
+Results and Evaluation:
 The models were evaluated using standard classification metrics.
 A comparison table is used to identify the best-performing model.
 
@@ -52,7 +53,7 @@ Key evaluation metrics:
 
 Graphical visualizations such as confusion matrices and ROC curves are also included in the notebook.
 
-Technologies Used
+Technologies Used:
 - Python
 - Jupyter Notebook
 - Pandas
@@ -62,7 +63,7 @@ Technologies Used
 - Matplotlib
 - Seaborn
 
-Conclusion
+Conclusion:
 The experimental results demonstrate that ensemble-based models outperform linear models for predicting online shopping purchase intention.
 XGBoost and Random Forest achieve superior performance compared to Logistic Regression.
 
@@ -73,7 +74,3 @@ Future Work
 - Testing additional models such as Gradient Boosting or Neural Networks
 - Handling class imbalance using resampling techniques
 - Applying the methodology to larger real-world datasets
-
----
-
-## 📁 Project Structure
